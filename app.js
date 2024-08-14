@@ -57,9 +57,9 @@ const walls = [
 Composite.add(world, walls)
 
 // Add balls with images
-const imagePaths = ['smile.png'] // Add your image paths here
+const imagePaths = ['penis.png'] // Add your image paths here
 
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 150; i++) {
   const radius = Math.random() * 30 + 10
   const imagePath = imagePaths[Math.floor(Math.random() * imagePaths.length)]
   const ball = Bodies.circle(
